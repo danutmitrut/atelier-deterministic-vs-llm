@@ -155,7 +155,7 @@ Data: <AAAA-LL-ZZ> · Mod: <plan / audit>
 
 ## Pașii
 
-| # | Pas | Intră → iese | Rep. | Str. | Cost | Verif. | Risc | Verdict | Cum se verifică |
+| # | Pas | Intră → iese | Repetabilitate | Structură | Cost | Verificabilitate | Risc | Verdict | Cum se verifică |
 |---|-----|--------------|------|------|------|--------|------|---------|-----------------|
 | 1 | ... | ... | C | C | C | C | ? | COD | ... |
 

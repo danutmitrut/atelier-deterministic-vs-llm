@@ -32,10 +32,10 @@ Una-două fraze. Răspunsurile la:
 Un pas care face două lucruri se sparge în doi: „citește și răspunde” sunt doi pași.
 
 Pentru fiecare criteriu scrii C (trage spre cod), L (trage spre LLM) sau ? (nu știu încă):
-- Rep. (repetabilitate): trebuie să iasă mereu exact la fel? Da = C.
-- Str. (structură): date fixe (numere, date, o listă de valori) = C; text liber = L.
+- Repetabilitate: trebuie să iasă mereu exact la fel? Da = C.
+- Structură: date fixe (numere, date, o listă de valori) = C; text liber = L.
 - Cost: rulează des, pe mult material, și sarcina e simplă = C.
-- Verif. (verificabilitate): rezultatul se verifică cu o regulă = C; doar citind = L.
+- Verificabilitate: rezultatul se verifică cu o regulă = C; doar citind = L.
 - Risc: greșeala strică mult sau nu se poate anula = C.
 
 Verdictul: COD, LLM sau HIBRID. La HIBRID scrii și tiparul:
@@ -47,7 +47,7 @@ Adaugi „+ aprobare umană” la orice pas care trimite ceva în afară, mișc�
 Primul rând e un exemplu din agentul de carusele. Îl ștergi când scrii pașii tăi.
 -->
 
-| # | Pas | Intră → iese | Rep. | Str. | Cost | Verif. | Risc | Verdict | Cum se verifică |
+| # | Pas | Intră → iese | Repetabilitate | Structură | Cost | Verificabilitate | Risc | Verdict | Cum se verifică |
 |---|-----|--------------|------|------|------|--------|------|---------|-----------------|
 | ex. | Caută fotografiile | descrierea slide-ului → fotografie plus credite | L | C | C | C | C | HIBRID: LLM formulează căutarea, codul filtrează licențele | scriptul păstrează doar licențele permise și scrie creditele |
 | 1 | | | | | | | | | |

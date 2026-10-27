@@ -4,6 +4,8 @@ Materialele atelierului „Al treilea instrument: skill-ul care îți arată câ
 
 ## Ce e aici
 
+Ghidul de lucru pas cu pas pentru atelier e în [GHID.md](GHID.md).
+
 | Ce | Unde | La ce folosește |
 |---|---|---|
 | Skill-ul `deterministic-vs-llm` | `deterministic-vs-llm/SKILL.md` | împarte un agent în pași și spune, pentru fiecare pas, ce face codul, ce face modelul și unde se împletesc |
